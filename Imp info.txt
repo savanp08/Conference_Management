@@ -1,0 +1,74 @@
+Vite React
+Firebase express
+
+3 roles - same schema 
+user - event book - 
+organizer: - fetch all events by userID - Dashboard display (search , sort) - edit
+admin - create organizers -  fetch all events - Dashboard display (search , sort) - edit
+
+
+schemas 
+ticket:{
+    eventID,
+    ticketID:,
+    name:
+    tickets:
+    price:
+    date:
+    cardDetails:
+}
+
+event:{
+    eventID:,
+    name:,
+    userID:
+    total:
+    booked:
+    date:
+    speakers:
+    filesLink:
+    reviews:[
+
+    ],
+    location:
+    price:
+
+    tickets:[
+    ticket:{
+    eventID,
+    ticketID:,
+    userID,
+    name:
+    tickets:
+    price:
+    date:
+    cardDetails:
+}
+    ]
+}
+
+user:{
+
+}
+
+Aut
+-login
+-signup
+
+Home
+
+Events
+-Events (display all events) (search)
+- event card (edit - organizer , admin)
+- ticket card ( edit - organizer ,  card)
+
+Profile
+- User - view booked events 
+- Organizer - view created events
+
+Cards 
+- create event
+- Display event
+- ticket card
+- user card 
+- display ticket 
